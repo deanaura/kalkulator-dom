@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kalkulator Sederhana</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="calculator">
+      <h1>Kalkulator Sederhana</h1>
+      <input type="text" id="angka1" placeholder="Angka Pertama" /><br />
+      <input type="text" id="angka2" placeholder="Angka Kedua" /><br />
+      <input type="button" value="+" onclick="pertambahan()" />
+      <input type="button" value="-" onclick="pengurangan()" />
+      <input type="button" value="x" onclick="perkalian()" />
+      <input type="button" value="/" onclick="pembagian()" /><br />
+      <input type="text" id="result" placeholder="Hasil" /><br />
+      <input type="button" value="Reset" onclick="reset()" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
